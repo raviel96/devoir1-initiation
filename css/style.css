@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #303030;
+}
+
+/* Form */
+
+input, .form-content select {
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.form {
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    background-color: #424242;
+}
+
+.form h1, .form-content label {
+    color: royalblue;
+}
+
+.form h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.form-content {
+    margin-bottom: 25px;
+}
+
+.form-content label {
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.form-content input {
+    width: 60%;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container input {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.button-container input:hover {
+    background: linear-gradient(to top, royalblue, #047aab);
+    color: #fff;
+}
+
+/* Travel section */
+.travel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #424242;
+}
+
+.travel-info {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.travel-info h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: royalblue;
+    margin-bottom: 20px;
+}
+
+.travel p {
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
