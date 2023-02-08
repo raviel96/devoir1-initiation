@@ -59,10 +59,6 @@ $city = $_POST['city'];
             <?php
             if (isset($_POST['submit'])) {
                 if (!empty($_POST['name']) or !empty($_POST['email']) or !empty($_POST['tel'])) {
-
-
-
-
                     foreach ($travels as $tab):
                         if ($tab['departure'] === $city) { ?>
                 <div class="travel-info">
